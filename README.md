@@ -1,11 +1,12 @@
-# Meme Generator
+# Drum Machine
 
-This project is a web application that allows users to generate memes by adding text to randomly generated images. Users can select an image, add text at the top and bottom.
+This project is a web application that simulates a drum machine. Users can click on virtual drum pads to play different drum sounds.
 
 ## Features
 
-- Click a button to generate a random image from an image API
-- Add text at the top and bottom of the image
+- Play drum sounds by clicking virtual drum pads
+- Each drum pad corresponds to a different drum sound
+- Visual feedback when drum pads are clicked
 
 ## Technologies Used
 
