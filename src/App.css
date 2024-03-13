@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Russo one;
+    background-color: #8d8d8d;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#drum-machine {
+    width: 660px;
+    height: 316px;
+    outline: 5px solid #FFA500;
+    display: flex;
+    background-color: #B3B3B3;
+}
+
+#drumpad-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 332px;
+    height: 272     px;
+    margin: 30px;
+}
+.drum-pad {
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #808080;
+    box-shadow: black 3px 3px 5px;
+    text-align: center;
+    padding-top: 33px;
+    cursor: pointer;
+}
+
+
+.logo-ctrls {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.logo {
+    margin: 7px 10px 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+.logo > i, .logo > div {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.controls-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 272px;
+    justify-content: center;
+    padding-right: 30px;
+}
+#display {
+    width: 200px;
+    height: 49px;
+    background-color: gray;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.volume-slider,  input[type="range"] {
+    width: 240px
+}
+
+.control {
+    text-align: center;
+}
